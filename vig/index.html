@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacuum Insulated Glass (VIG) for Historic Wood Windows — Heirloom Windows</title>
+  <meta name="description" content="Wood windows that replicate original design — down to glass offsets and shadow lines — while using Vacuum Insulated Glass (VIG) to deliver performance that far exceeds conventional insulated glass.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&family=Lato:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       NAV — mirror of live site nav (simplified for prototype).
+       In Webflow rebuild, reuse the existing global Navbar symbol.
+       ========================================================= -->
+  <nav class="navbar-2" role="banner">
+    <div class="nav-inner">
+      <a href="#" class="brand">
+        <img src="https://cdn.prod.website-files.com/6150dba44f9f414f3d2b2144/616e9e14d0faa718c741c196_HeirloomWindows_logo_whitetext.png" alt="Heirloom Windows" height="44">
+      </a>
+      <div class="nav-menu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Windows</a>
+        <a href="#" class="nav-link">Advantages</a>
+        <a href="#" class="nav-link nav-link--current">Solutions</a>
+        <a href="#" class="nav-link">Historic Styles</a>
+        <a href="#" class="nav-link">Gallery</a>
+        <a href="#" class="nav-link">FAQ</a>
+        <a href="#" class="navigation-item-quote">Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       HERO — matches .div-product-heading pattern from live site
+       Class to reuse in Webflow: .heading-h1-white-product-sectoin
+       ========================================================= -->
+  <header class="div-product-heading product-color">
+    <div class="product-heading-inner">
+      <h1 class="heading-h1-white-product-sectoin">Replacement Windows That Don't Compromise Historic Architecture</h1>
+      <p class="hero-subhead">
+        Most modern windows improve performance by flattening profiles, reducing depth, and losing the proportions that define historic buildings. We don't. We build wood windows that replicate original design — down to glass offsets and shadow lines — while using Vacuum Insulated Glass (VIG) to deliver performance that far exceeds conventional insulated glass.
+      </p>
+      <a href="#quote" class="button-hero cc-jumbo-button cc-jumbo-white">
+        <span class="text-block-4">Request A Quote</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       PAGE NAV — sticky jump-nav for long-form review
+       ========================================================= -->
+  <nav class="page-nav" aria-label="On this page">
+    <div class="page-nav__inner">
+      <span class="page-nav__label">On this page</span>
+      <ul class="page-nav__list">
+        <li><a href="#feel">The Feel</a></li>
+        <li><a href="#problem">The Problem</a></li>
+        <li><a href="#what-is-vig">What is VIG</a></li>
+        <li><a href="#why-ig-fails">Why IG Fails</a></li>
+        <li><a href="#solution">Our Solution</a></li>
+        <li><a href="#comparison">Comparison</a></li>
+        <li><a href="#comfort">Comfort</a></li>
+        <li><a href="#appearance">Appearance</a></li>
+        <li><a href="#coatings">Coatings</a></li>
+        <li><a href="#custom-shapes">Custom Shapes</a></li>
+        <li><a href="#divided-lites">SDL vs TDL</a></li>
+        <li><a href="#manufacturers">Manufacturers</a></li>
+        <li><a href="#why-vig">Why VIG</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#quote" class="page-nav__cta">Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       SECTION 1 — What people respond to in historic windows
+       ========================================================= -->
+  <section id="feel" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">The feel of a historic window</span>
+      <h2 class="heading-h2-blue left">What People Respond to in Historic Windows (Even If They Can't Explain It)</h2>
+      <div class="article-body">
+        <p class="paragraph-left-dark">Most people don't look at a historic window and think about offsets, profiles, or shadow lines.</p>
+        <p class="paragraph-left-dark lead">They just know it feels right.</p>
+        <p class="paragraph-left-dark">There's a depth to it. A weight. A sense that the window is part of the wall — not just applied to it.</p>
+        <p class="paragraph-left-dark">Light doesn't just pass through it — it interacts with it. Edges catch shadow. Profiles create contrast. The glass sits back in a way that gives the entire opening dimension.</p>
+        <p class="paragraph-left-dark">Modern windows tend to lose this. They become flat. Uniform. The proportions may be close — but visually, something is missing.</p>
+        <p class="paragraph-left-dark">That "something" isn't one detail — it's the accumulation of many small, precise relationships:</p>
+        <ul class="bullet-list">
+          <li>How far the glass sits from the interior surface</li>
+          <li>How the exterior edge meets the light</li>
+          <li>The thickness and shape of the profiles</li>
+          <li>The way shadow defines the opening throughout the day</li>
+        </ul>
+        <p class="paragraph-left-dark">Most people can't name these things — but they recognize immediately when they're gone.</p>
+        <p class="paragraph-left-dark emphasis">And once they're gone, they're very difficult to get back.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 2 — The Problem (compromise spectrum)
+       ========================================================= -->
+  <section id="problem" class="section-article alt-bg">
+    <div class="container">
+      <span class="label-eyebrow">The compromise spectrum</span>
+      <h2 class="heading-h2-blue left">The Problem: Performance Upgrades Change Those Relationships</h2>
+      <p class="paragraph-left-dark">Every modern "improvement" to a window changes the geometry that creates that look.</p>
+      <p class="paragraph-left-dark">Every option on the market fits somewhere on that compromise spectrum:</p>
+
+      <div class="spectrum-grid">
+        <div class="spectrum-card">
+          <span class="spectrum-label">Original glass</span>
+          <p class="spectrum-desc">Perfect appearance, poor performance</p>
+        </div>
+        <div class="spectrum-card">
+          <span class="spectrum-label">Insulated glass (IG)</span>
+          <p class="spectrum-desc">Better performance, compromised design</p>
+        </div>
+        <div class="spectrum-card">
+          <span class="spectrum-label">Storm windows</span>
+          <p class="spectrum-desc">Marginal improvement, added complexity</p>
+        </div>
+        <div class="spectrum-card spectrum-card--featured">
+          <span class="spectrum-label">Vacuum Insulated Glass (VIG)</span>
+          <p class="spectrum-desc">The first technology that solves both</p>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p class="paragraph-left-dark">It allows us to:</p>
+        <ul class="bullet-list">
+          <li>Maintain true historic profiles and glass offsets</li>
+          <li>Deliver thermal performance that far exceeds modern IG units</li>
+          <li>Produce windows that are visually indistinguishable from originals</li>
+        </ul>
+        <p class="paragraph-left-dark">In practical terms:</p>
+        <p class="paragraph-left-dark emphasis">VIG allows a 150-year-old window design to perform like a modern high-efficiency unit — without looking like one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 3 — What is VIG? (three-spot feature grid)
+       Mirrors .ecatalogfeature-encompass-div pattern from live site
+       ========================================================= -->
+  <section id="what-is-vig" class="section---3-spot-advantages vig-glass">
+    <div class="container">
+      <span class="label-eyebrow label-eyebrow--white">The technology</span>
+      <h2 class="heading-h2-white-white left">What is Vacuum Insulated Glass (VIG)?</h2>
+      <p class="paragraph-left-light">At its simplest, VIG is:</p>
+
+      <div class="feature-grid">
+        <div class="product-solution-features">
+          <div class="ecatalog-features-icon"><span>1</span></div>
+          <h3 class="h3-ecatalog---white">Two Thin Lites</h3>
+          <p class="ecatalog-description---white">Typically 3–6mm</p>
+        </div>
+        <div class="product-solution-features">
+          <div class="ecatalog-features-icon"><span>2</span></div>
+          <h3 class="h3-ecatalog---white">Vacuum Gap</h3>
+          <p class="ecatalog-description---white">A microscopic ~0.2mm gap</p>
+        </div>
+        <div class="product-solution-features">
+          <div class="ecatalog-features-icon"><span>3</span></div>
+          <h3 class="h3-ecatalog---white">Micro-Spacers</h3>
+          <p class="ecatalog-description---white">Supported by micro-spacers (pillars)</p>
+        </div>
+        <div class="product-solution-features">
+          <div class="ecatalog-features-icon"><span>4</span></div>
+          <h3 class="h3-ecatalog---white">Hermetic Seal</h3>
+          <p class="ecatalog-description---white">Hermetically sealed around the perimeter</p>
+        </div>
+      </div>
+
+      <p class="paragraph-left-light">The key difference is the vacuum.</p>
+      <p class="paragraph-left-light">There is nothing between the lites — no air, no gas — so there is virtually no medium to transfer heat.</p>
+      <p class="paragraph-left-light emphasis--light">This is what allows VIG to dramatically outperform traditional insulated glass while remaining extremely thin.</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 4 — Why IG doesn't fit (dimension comparison)
+       ========================================================= -->
+  <section id="why-ig-fails" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">Why IG doesn't fit</span>
+      <h2 class="heading-h2-blue left">Why Insulated Glass (IG) Doesn't Work in Historic Windows</h2>
+      <p class="paragraph-left-dark">Insulated glass improves thermal performance — but it does so by changing the very geometry that gives historic windows their character.</p>
+      <p class="paragraph-left-dark">To perform well, IG requires:</p>
+
+      <div class="dim-grid">
+        <div class="dim-card dim-card--ig">
+          <span class="dim-card__label">What IG requires</span>
+          <div class="dim-card__stat">¾"–1"</div>
+          <ul class="dim-card__detail">
+            <li>Large air gaps (approximately ½" to ¾")</li>
+            <li>Thick overall units (often ¾" to 1")</li>
+          </ul>
+        </div>
+        <div class="dim-card dim-card--historic">
+          <span class="dim-card__label">Historic windows rely on very specific relationships</span>
+          <div class="dim-card__stat">⅞" <span>/</span> ⅜"</div>
+          <ul class="dim-card__detail">
+            <li>Approximately ⅞" interior glass offset</li>
+            <li>Approximately ⅜" exterior offset</li>
+            <li>Thin glass (approximately ⅛")</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="paragraph-left-dark">That thickness makes compromise unavoidable.</p>
+
+      <div class="dim-clash">
+        <div class="dim-clash__line"></div>
+        <span class="dim-clash__label">The incompatibility</span>
+        <div class="dim-clash__line"></div>
+      </div>
+
+      <p class="paragraph-left-dark">When IG is introduced:</p>
+      <ul class="bullet-list">
+        <li>Those offsets must be reduced or redistributed</li>
+        <li>Profiles flatten</li>
+        <li>Shadow lines disappear</li>
+      </ul>
+      <p class="paragraph-left-dark emphasis">These sound like small changes — but they fundamentally alter how the window reads, especially from the interior.</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 5 — How VIG Preserves Historic Window Design
+       Image-forward with badge overlay + spec trio
+       ========================================================= -->
+  <section id="solution" class="section-article alt-bg">
+    <div class="container">
+      <div class="solution-feature">
+        <div class="solution-feature__image">
+          <div class="image-placeholder image-placeholder--aspect-43" data-caption="Completed window showing preserved depth, profiles, and shadow lines">
+            <span>Project image — completed window showing historic depth + profiles</span>
+          </div>
+          <div class="solution-badge" aria-label="VIG thickness: 6 to 8 millimeters">
+            <span class="solution-badge__num">6–8</span>
+            <span class="solution-badge__unit">mm</span>
+            <span class="solution-badge__caption">VIG thickness</span>
+          </div>
+        </div>
+        <div class="solution-feature__content">
+          <span class="label-eyebrow">The solution</span>
+          <h2 class="heading-h2-blue left">How VIG Preserves Historic Window Design</h2>
+          <p class="paragraph-left-dark">Typical VIG thickness:</p>
+          <ul class="bullet-list">
+            <li>Approximately 6mm to 8mm (about ¼" to ⅜")</li>
+          </ul>
+          <p class="paragraph-left-dark">That allows us to:</p>
+          <ul class="bullet-list">
+            <li>Maintain original interior and exterior offsets</li>
+            <li>Preserve true sash profiles</li>
+            <li>Keep correct shadow lines</li>
+          </ul>
+          <p class="paragraph-left-dark">In our work, we build around it so that:</p>
+          <ul class="bullet-list">
+            <li>Interior offset remains approximately ⅞"</li>
+            <li>Exterior offset remains approximately ⅜"</li>
+          </ul>
+          <div class="spec-trio">
+            <div class="spec-trio__item">
+              <span class="spec-trio__stat">⅞"</span>
+              <span class="spec-trio__label">Interior offset preserved</span>
+            </div>
+            <div class="spec-trio__item">
+              <span class="spec-trio__stat">⅜"</span>
+              <span class="spec-trio__label">Exterior offset preserved</span>
+            </div>
+            <div class="spec-trio__item">
+              <span class="spec-trio__stat">True</span>
+              <span class="spec-trio__label">Sash profile + shadow lines</span>
+            </div>
+          </div>
+          <p class="paragraph-left-dark emphasis">The result is a window that is visually indistinguishable from an original — without compromise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 6 — Comparison: U-value chart + table
+       ========================================================= -->
+  <section id="comparison" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">At a glance</span>
+      <h2 class="heading-h2-blue left">VIG vs IG vs Storm Windows (Quick Comparison)</h2>
+
+      <div class="uvalue-chart" role="img" aria-label="U-value chart comparing original glass, storm windows, IG, and VIG">
+        <div class="uvalue-chart__header">
+          <span class="uvalue-chart__title">Thermal Performance (U-value) — measures how much heat passes through the glass; lower numbers are better</span>
+          <span class="uvalue-chart__scale">0 · · · · · 1.0</span>
+        </div>
+        <div class="uvalue-row">
+          <span class="uvalue-row__label">Original glass</span>
+          <div class="uvalue-row__track"><div class="uvalue-row__bar" style="--u: 100%;"></div><span class="uvalue-row__num">~1.0</span></div>
+        </div>
+        <div class="uvalue-row">
+          <span class="uvalue-row__label">Storm windows</span>
+          <div class="uvalue-row__track"><div class="uvalue-row__bar" style="--u: 68%;"></div><span class="uvalue-row__num">~0.6–0.75</span></div>
+        </div>
+        <div class="uvalue-row">
+          <span class="uvalue-row__label">IG</span>
+          <div class="uvalue-row__track"><div class="uvalue-row__bar" style="--u: 28%;"></div><span class="uvalue-row__num">~0.25–0.30</span></div>
+        </div>
+        <div class="uvalue-row uvalue-row--featured">
+          <span class="uvalue-row__label">VIG</span>
+          <div class="uvalue-row__track"><div class="uvalue-row__bar" style="--u: 10%;"></div><span class="uvalue-row__num">0.12 down to 0.05</span></div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th scope="col">Criteria</th>
+              <th scope="col">Original glass</th>
+              <th scope="col">Storm windows</th>
+              <th scope="col">IG</th>
+              <th scope="col" class="is-featured">VIG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Appearance</th>
+              <td>Perfect</td>
+              <td>Obstructive</td>
+              <td>Compromised</td>
+              <td class="is-featured">Indistinguishable from original</td>
+            </tr>
+            <tr>
+              <th scope="row">Practicality</th>
+              <td>—</td>
+              <td>Removable, maintenance-heavy</td>
+              <td>Permanent but visually flawed</td>
+              <td class="is-featured">Permanent, high performance, historically accurate</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 7 — Comfort (two-scene CSS illustration)
+       ========================================================= -->
+  <section id="comfort" class="section-article alt-bg">
+    <div class="container">
+      <span class="label-eyebrow">What you'll notice</span>
+      <h2 class="heading-h2-blue left">Comfort Near the Window (Why This Matters)</h2>
+      <p class="paragraph-left-dark">With traditional glass — and even many insulated glass units — the interior surface of the window gets cold in winter.</p>
+      <p class="paragraph-left-dark">That cold surface chills the air next to it. The air drops, rolls across the floor, and creates what feels like a draft.</p>
+      <p class="paragraph-left-dark">Most people assume the window is leaking.</p>
+      <p class="paragraph-left-dark">It's not.</p>
+      <p class="paragraph-left-dark">It's the glass.</p>
+
+      <div class="scene-pair">
+        <figure class="scene scene--cold">
+          <div class="scene__viz" aria-hidden="true">
+            <div class="scene__room">
+              <div class="scene__pane scene__pane--cold"></div>
+              <div class="scene__arrow scene__arrow--a"></div>
+              <div class="scene__arrow scene__arrow--b"></div>
+              <div class="scene__arrow scene__arrow--c"></div>
+              <div class="scene__floor scene__floor--current"></div>
+            </div>
+          </div>
+          <figcaption class="scene__caption">
+            <span class="scene__label">Traditional or IG glass</span>
+            <p>That cold surface chills the air next to it. The air drops, rolls across the floor, and creates what feels like a draft.</p>
+          </figcaption>
+        </figure>
+        <figure class="scene scene--stable">
+          <div class="scene__viz" aria-hidden="true">
+            <div class="scene__room">
+              <div class="scene__pane scene__pane--warm"></div>
+              <div class="scene__calm scene__calm--a"></div>
+              <div class="scene__calm scene__calm--b"></div>
+              <div class="scene__calm scene__calm--c"></div>
+            </div>
+          </div>
+          <figcaption class="scene__caption">
+            <span class="scene__label">Vacuum Insulated Glass</span>
+            <p>VIG keeps the interior glass surface much closer to room temperature. The "cold fall" effect is dramatically reduced. The space near the window feels stable — not drafty.</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="paragraph-left-dark">Because VIG keeps the interior glass surface much closer to room temperature:</p>
+      <ul class="bullet-list">
+        <li>The "cold fall" effect is dramatically reduced</li>
+        <li>Air movement near the window is minimized</li>
+        <li>The space near the window feels stable — not drafty</li>
+      </ul>
+      <p class="paragraph-left-dark emphasis">In practical terms, this is the difference between avoiding the window in winter… and being able to sit right next to it comfortably.</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 8 — Do VIG windows look different? (diagrams)
+       ========================================================= -->
+  <section id="appearance" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">Appearance questions</span>
+      <h2 class="heading-h2-blue left">Do VIG Windows Look Different?</h2>
+      <p class="paragraph-left-dark">This is one of the most common concerns — and in real installations, it's rarely an issue.</p>
+
+      <h3 class="h3-sub">Micro spacers (pillars)</h3>
+      <div class="spacer-diagram">
+        <div class="spacer-diagram__viz" aria-hidden="true">
+          <div class="spacer-diagram__grid">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="spacer-diagram__scale">25–50mm spacing</span>
+        </div>
+        <div class="spacer-diagram__text">
+          <ul class="bullet-list">
+            <li>Small supports between the lites</li>
+            <li>Typically spaced 25–50mm apart</li>
+          </ul>
+          <p class="paragraph-left-dark">On a white background, you can see them.</p>
+          <p class="paragraph-left-dark">In installed windows:</p>
+          <ul class="bullet-list">
+            <li>You look through the glass, not at it</li>
+            <li>They are almost always unnoticed unless pointed out</li>
+          </ul>
+          <p class="paragraph-left-dark">In real-world installations, clients consistently report that they simply don't notice these details over time — the glass reads as a single, uninterrupted surface.</p>
+        </div>
+      </div>
+
+      <h3 class="h3-sub">Vent vs No Vent (Getter Systems)</h3>
+      <p class="paragraph-left-dark">There are two types of VIG:</p>
+
+      <div class="vig-types">
+        <div class="vig-type-card">
+          <div class="vig-type-card__diagram" aria-hidden="true">
+            <div class="vig-type-card__unit">
+              <span class="vig-type-card__dot vig-type-card__dot--vent"></span>
+            </div>
+            <span class="vig-type-card__marker">Vent port</span>
+          </div>
+          <h4 class="h4-inline">1. Vented (after-seal vacuum)</h4>
+          <ul class="bullet-list">
+            <li>Small port near the corner (about the size of a dime)</li>
+            <li>Can be positioned out of normal sightlines</li>
+          </ul>
+        </div>
+        <div class="vig-type-card">
+          <div class="vig-type-card__diagram" aria-hidden="true">
+            <div class="vig-type-card__unit">
+              <span class="vig-type-card__dot vig-type-card__dot--getter"></span>
+            </div>
+            <span class="vig-type-card__marker">Internal getter strip</span>
+          </div>
+          <h4 class="h4-inline">2. Non-vented (sealed in a vacuum chamber)</h4>
+          <ul class="bullet-list">
+            <li>No visible port</li>
+            <li>Includes a "getter" (small internal strip or needle near the edge)</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="paragraph-left-dark">In practice:</p>
+      <ul class="bullet-list">
+        <li>Both are minimally visible</li>
+        <li>Both become unnoticeable once installed</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 9 — Low-E coating (swatch cards)
+       ========================================================= -->
+  <section id="coatings" class="section-article alt-bg">
+    <div class="container">
+      <span class="label-eyebrow">Coatings</span>
+      <h2 class="heading-h2-blue left">Choosing the Right Low-E Coating (for Historic Work)</h2>
+      <p class="paragraph-left-dark">Most VIG manufacturers optimize for energy performance — not appearance.</p>
+
+      <p class="paragraph-left-dark">Low-E coatings affect:</p>
+      <ul class="bullet-list">
+        <li>Color neutrality</li>
+        <li>Reflectivity</li>
+        <li>Light transmission</li>
+      </ul>
+
+      <div class="coating-cards">
+        <div class="coating-card">
+          <div class="coating-card__swatch coating-card__swatch--max" aria-hidden="true"></div>
+          <span class="coating-card__name">Maximum-performance</span>
+          <p class="coating-card__desc">Optimized for energy performance, not appearance.</p>
+        </div>
+        <div class="coating-card">
+          <div class="coating-card__swatch coating-card__swatch--mid" aria-hidden="true"></div>
+          <span class="coating-card__name">Standard</span>
+          <p class="coating-card__desc">Affects color neutrality, reflectivity, and light transmission.</p>
+        </div>
+        <div class="coating-card coating-card--featured">
+          <span class="coating-card__pick">Best for historic</span>
+          <div class="coating-card__swatch coating-card__swatch--historic" aria-hidden="true"></div>
+          <span class="coating-card__name">Lightest available</span>
+          <p class="coating-card__desc">The lightest coating available is usually the best choice. It preserves the look of traditional glass.</p>
+        </div>
+      </div>
+
+      <p class="paragraph-left-dark">For historic applications:</p>
+      <ul class="bullet-list">
+        <li>The lightest coating available is usually the best choice</li>
+        <li>It preserves the look of traditional glass</li>
+      </ul>
+
+      <p class="paragraph-left-dark">Even with lighter coatings:</p>
+      <ul class="bullet-list">
+        <li>VIG still far exceeds the performance of IG</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 10 — Custom shapes (silhouette row)
+       ========================================================= -->
+  <section id="custom-shapes" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">Custom shapes</span>
+      <h2 class="heading-h2-blue left">VIG for Arched, Round, and Custom-Shaped Windows</h2>
+
+      <div class="shape-row" aria-hidden="true">
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="48" height="64"/><line x1="28" y1="4" x2="28" y2="68"/><line x1="4" y1="36" x2="52" y2="36"/></svg>
+          <span>Rectangle</span>
+        </div>
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 68 L4 32 A24 24 0 0 1 52 32 L52 68 Z"/><line x1="28" y1="8" x2="28" y2="68"/></svg>
+          <span>Arched</span>
+        </div>
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><circle cx="28" cy="36" r="26"/><line x1="2" y1="36" x2="54" y2="36"/><line x1="28" y1="10" x2="28" y2="62"/></svg>
+          <span>Round</span>
+        </div>
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="28" cy="36" rx="20" ry="30"/><line x1="28" y1="6" x2="28" y2="66"/></svg>
+          <span>Oval</span>
+        </div>
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="32" width="13" height="36"/><path d="M18 68 L18 26 A10 10 0 0 1 38 26 L38 68 Z"/><rect x="40" y="32" width="13" height="36"/></svg>
+          <span>Palladian</span>
+        </div>
+        <div class="shape-item">
+          <svg viewBox="0 0 56 72" fill="none" stroke="currentColor" stroke-width="2"><polygon points="28,4 52,36 52,68 4,68 4,36"/></svg>
+          <span>Gable</span>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p class="paragraph-left-dark">Many historic homes include arched, round, or otherwise custom-shaped windows.</p>
+        <p class="paragraph-left-dark">These openings are often defining architectural features — and they cannot be simplified without changing the character of the building.</p>
+        <p class="paragraph-left-dark">Not all VIG can be produced in curved or custom shapes.</p>
+        <p class="paragraph-left-dark">In some cases, this becomes the limiting factor in whether VIG can be used at all.</p>
+        <p class="paragraph-left-dark">Some VIG products are simply not available in these geometries.</p>
+        <p class="paragraph-left-dark">This is not a performance issue — it is a capability limitation.</p>
+        <p class="paragraph-left-dark">Which means the decision becomes:</p>
+        <blockquote class="pull-quote">
+          <p>Not "Which performs best?"<br>But "Which can actually be made to fit the design?"</p>
+        </blockquote>
+        <p class="paragraph-left-dark">For projects involving arches, rounds, or custom geometries, this becomes a hard constraint.</p>
+        <p class="paragraph-left-dark">We account for this early — selecting glass systems that can meet both the performance requirements and the geometry of the original design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 11 — SDL vs TDL (with proof quotes + muntin image)
+       ========================================================= -->
+  <section id="divided-lites" class="section---3-spot-advantages vig-glass">
+    <div class="container">
+      <span class="label-eyebrow label-eyebrow--white">Divided lites</span>
+      <h2 class="heading-h2-white-white left">Simulated Divided Lite (SDL) vs True Divided Lite (TDL)</h2>
+      <p class="paragraph-left-light">Traditional windows used true divided lite construction, with individual panes separated by muntins.</p>
+      <p class="paragraph-left-light">Most modern windows use simulated divided lite (SDL).</p>
+      <p class="paragraph-left-light">With insulated glass, SDL often falls short:</p>
+      <ul class="bullet-list bullet-list--light">
+        <li>Spacer bars reveal the separation</li>
+        <li>Reflections give it away</li>
+        <li>Muntin proportions are altered</li>
+      </ul>
+      <p class="paragraph-left-light emphasis--light">With VIG, those limitations largely disappear.</p>
+
+      <div class="sdl-grid">
+        <div class="sdl-text">
+          <p class="paragraph-left-light">Because the gap between lites is microscopic:</p>
+          <ul class="bullet-list bullet-list--light">
+            <li>The glass reads as a single pane</li>
+            <li>There is no visible spacer bar between muntins</li>
+            <li>Reflections and sightlines remain consistent</li>
+          </ul>
+          <p class="paragraph-left-light">Combined with our muntin construction methods, this allows SDL that is visually indistinguishable from true divided lite.</p>
+        </div>
+        <div class="sdl-image">
+          <div class="image-placeholder image-placeholder--dark image-placeholder--aspect-43" data-caption="Muntin close-up — SDL next to TDL">
+            <span>Muntin / SDL close-up</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="paragraph-left-light">In real-world evaluation:</p>
+      <div class="proof-grid">
+        <blockquote class="proof-card">
+          <p>At a Historic Preservation Commission trade event, architects reviewing our windows were unable to distinguish SDL from true divided lite.</p>
+        </blockquote>
+        <blockquote class="proof-card">
+          <p>In another project, an experienced historic contractor told the homeowner they believed they had purchased true divided lite windows — when in fact they were our SDL.</p>
+        </blockquote>
+      </div>
+      <p class="paragraph-left-light proof-caption">These are not showroom comparisons. They are field observations from professionals who work with historic windows regularly.</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 12 — VIG Manufacturers: What Actually Matters
+       ========================================================= -->
+  <section id="manufacturers" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">Sourcing</span>
+      <h2 class="heading-h2-blue left">VIG Manufacturers: What Actually Matters</h2>
+      <div class="article-body">
+        <p class="paragraph-left-dark">Not all VIG is the same.</p>
+        <p class="paragraph-left-dark"><strong>Key differences include:</strong></p>
+        <ul class="bullet-list">
+          <li>Thermal performance</li>
+          <li>Edge seal durability</li>
+          <li>Spacer visibility</li>
+          <li>Optical clarity and coatings</li>
+          <li>Reliability of supply</li>
+        </ul>
+        <p class="paragraph-left-dark"><strong>Lead times vary significantly:</strong></p>
+        <ul class="bullet-list">
+          <li>Some imported products require 12–16+ weeks</li>
+          <li>Domestic production is typically 2–4 weeks</li>
+        </ul>
+        <p class="paragraph-left-dark">This becomes critical in real projects. We evaluate suppliers based on:</p>
+        <ul class="bullet-list">
+          <li>Real-world durability</li>
+          <li>Visual performance once installed</li>
+          <li>Compatibility with traditional construction</li>
+          <li>Confidence in delivery</li>
+        </ul>
+        <p class="paragraph-left-dark emphasis">Almost none are designed with historic appearance as a priority. That distinction matters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 13 — Why We Use VIG
+       ========================================================= -->
+  <section id="why-vig" class="section-article alt-bg">
+    <div class="container">
+      <span class="label-eyebrow">Our position</span>
+      <h2 class="heading-h2-blue left">Why We Use VIG</h2>
+      <div class="article-body">
+        <p class="paragraph-left-dark">We didn't start with VIG — we moved to it after working through the alternatives.</p>
+        <p class="paragraph-left-dark">Over the past seven years we've:</p>
+        <ul class="bullet-list">
+          <li>Tested multiple manufacturers</li>
+          <li>Compared real-world performance</li>
+          <li>Integrated it into true historic profiles</li>
+        </ul>
+        <p class="paragraph-left-dark">The conclusion is simple:</p>
+        <blockquote class="pull-quote">
+          <p>It is the only glazing system that allows us to replicate original windows without compromise — while delivering performance that far exceeds conventional insulated glass.</p>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 14 — Summary: When VIG Makes Sense
+       ========================================================= -->
+  <section id="summary" class="section-article">
+    <div class="container">
+      <span class="label-eyebrow">Summary</span>
+      <h2 class="heading-h2-blue left">Summary: When VIG Makes Sense</h2>
+      <p class="paragraph-left-dark"><strong>VIG makes the most sense when your priority is:</strong></p>
+      <ul class="bullet-list">
+        <li>Maximum historic accuracy</li>
+        <li>Strong thermal performance</li>
+        <li>A long-term, integrated solution</li>
+      </ul>
+      <p class="paragraph-left-dark"><strong>If your priority is strictly:</strong></p>
+      <ul class="bullet-list">
+        <li>Lowest upfront cost → storm windows</li>
+        <li>Standard modern replacement → IG</li>
+      </ul>
+      <p class="paragraph-left-dark emphasis">But if the goal is to preserve the character of a historic building without sacrificing performance — VIG is the clear solution.</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CTA SECTION — reuse site-wide CTA pattern
+       ========================================================= -->
+  <section id="quote" class="section-cta-final">
+    <div class="container cta-inner">
+      <h2 class="heading-h2-white-white">Ready to discuss your project?</h2>
+      <p class="paragraph-left-light cta-sub">We build historically accurate wood windows with VIG for restoration and historically styled new construction. Tell us about your project and we'll put together a quote.</p>
+      <a href="#" class="button-hero cc-jumbo-button cc-jumbo-white">
+        <span class="text-block-4">Request A Quote</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER — mirror of live site footer (simplified).
+       In Webflow rebuild, reuse the existing global Footer symbol.
+       ========================================================= -->
+  <footer class="footer-section">
+    <div class="footer-wrap">
+      <div class="footer-2">
+        <div class="footer-logo-div">
+          <img src="https://cdn.prod.website-files.com/6150dba44f9f414f3d2b2144/616e9e14d0faa718c741c196_HeirloomWindows_logo_whitetext.png" alt="Heirloom Windows" height="44">
+          <p class="footer-tag">Historically accurate wood windows — built for restoration and historically styled new construction.</p>
+        </div>
+        <div class="footer-page-list-div">
+          <a href="#" class="footer-link-list">Windows</a>
+          <a href="#" class="footer-link-list">Styles</a>
+          <a href="#" class="footer-link-list">Advantages</a>
+          <a href="#" class="footer-link-list">Solutions</a>
+          <a href="#" class="footer-link-list">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-2">
+      <div class="footer-bottom-div">
+        <div class="footer-bottom-text-link-2">© 2026 Heirloom Windows</div>
+        <a href="#" class="footer-bottom-text-link-2">Site Map</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
