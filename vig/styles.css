@@ -402,6 +402,58 @@ h1, h2, h3, h4, h5, h6 {
   .page-nav__list a { padding: 6px 10px; font-size: 11px; }
 }
 
+/* Desktop: switch to vertical left-rail nav */
+@media (min-width: 1000px) {
+  .page-nav {
+    position: fixed;
+    top: 68px;
+    left: 0;
+    width: 220px;
+    bottom: 0;
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.04);
+  }
+  .page-nav__inner {
+    max-width: none;
+    padding: 22px 16px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+  .page-nav__label {
+    display: block;
+    margin: 0 4px 4px;
+  }
+  .page-nav__list {
+    flex-direction: column;
+    gap: 2px;
+    overflow: visible;
+    width: 100%;
+  }
+  .page-nav__list li { width: 100%; }
+  .page-nav__list a {
+    display: block;
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+  .page-nav__cta {
+    margin: 10px 0 0;
+    text-align: center;
+  }
+
+  /* Shift main content to sit right of the fixed rail */
+  .div-product-heading,
+  .section-article,
+  .section---3-spot-advantages,
+  .section-cta-final,
+  .footer-section {
+    padding-left: 220px;
+  }
+}
+
 /* ==========================================================================
    Hero (product page heading band)
    ========================================================================== */
