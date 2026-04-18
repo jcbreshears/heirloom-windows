@@ -53,8 +53,10 @@
   </header>
 
   <!-- =========================================================
-       PAGE NAV — sticky jump-nav for long-form review
+       LAYOUT — sidebar nav + main content
+       Nav starts below the hero (sticky within this wrapper)
        ========================================================= -->
+  <div class="layout">
   <nav class="page-nav" aria-label="On this page">
     <div class="page-nav__inner">
       <span class="page-nav__label">On this page</span>
@@ -77,6 +79,8 @@
       </ul>
     </div>
   </nav>
+
+  <main class="layout__main">
 
   <!-- =========================================================
        SECTION 1 — What people respond to in historic windows
@@ -706,6 +710,10 @@
       <p class="paragraph-left-dark emphasis">But if the goal is to preserve the character of a historic building without sacrificing performance — VIG is the clear solution.</p>
     </div>
   </section>
+
+  </main>
+  </div>
+  <!-- /layout -->
 
   <!-- =========================================================
        CTA SECTION — reuse site-wide CTA pattern
